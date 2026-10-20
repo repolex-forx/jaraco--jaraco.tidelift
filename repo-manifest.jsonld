@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/jaraco/jaraco.tidelift/commit/e137e26ceefb98c23e48a2c08b6dd445e40d5516",
       "git:hexsha": "e137e26ceefb98c23e48a2c08b6dd445e40d5516",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-20T11:25:19.469363+00:00"
     },
     {
       "@id": "https://repolex.ai/r/jaraco/jaraco.tidelift/commit/da9f5baa0b9d90ffb4a4e79ba65c10017d489406",
