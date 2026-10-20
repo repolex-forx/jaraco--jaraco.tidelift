@@ -1,0 +1,11 @@
+{
+  "org": "jaraco",
+  "repo": "jaraco.tidelift",
+  "versions": [
+    {
+      "commit": "e137e26ceefb98c23e48a2c08b6dd445e40d5516",
+      "tag": "",
+      "parsed_at": "2026-10-20T11:25:19.469879+00:00"
+    }
+  ]
+}
