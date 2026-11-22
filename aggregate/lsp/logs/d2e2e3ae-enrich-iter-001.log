@@ -1,0 +1,16 @@
+[2026-11-22T00:10:49Z] === ENRICH ITERATION 1 START | repo=jaraco/jaraco.tidelift sha=d2e2e3ae ===
+[2026-11-22T00:10:49Z] [iter=1] PHASE START: enrich repo=jaraco/jaraco.tidelift sha=d2e2e3ae runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d2e2e3ae-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d2e2e3ae85dae2cba50d25402ee86b9873381f58.nq.gz
+[2026-11-22T00:10:49Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-22T00:10:49Z] [iter=1] AST store loaded triples=3971 load_secs=0 mem_mb=88 MB
+[2026-11-22T00:10:49Z] [iter=1] Step 2: Finding LSP targets mem_mb=88 MB
+[2026-11-22T00:10:49Z] [iter=1] LSP targets found call_sites=27 imports=10 extends=0 implements=0 secs=0
+[2026-11-22T00:10:49Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=88 MB
+[2026-11-22T00:10:49Z] [iter=1] Position index built positions=272 nodes_with_types=370 secs=0 mem_mb=88 MB
+[2026-11-22T00:10:49Z] [iter=1] Step 3: Starting LSP resolution mem_mb=88 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T00:10:49Z] [iter=1] Resolving target type target_type=call_site count=27
+[2026-11-22T00:10:53Z] [iter=1] Target type resolved target_type=call_site resolved=14 errors=0 secs=3 mem_mb=88 MB
+[2026-11-22T00:10:53Z] [iter=1] Resolving target type target_type=import_statement count=10
+[2026-11-22T00:10:54Z] [iter=1] Target type resolved target_type=import_statement resolved=4 errors=0 secs=1 mem_mb=88 MB
+[2026-11-22T00:10:55Z] [iter=1] Step 5: Writing final enrichment file triples=400
+[2026-11-22T00:10:55Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d2e2e3ae85dae2cba50d25402ee86b9873381f58.nq.gz size_kb=5
+[2026-11-22T00:10:55Z] [iter=1] PHASE END: enrich elapsed_s=6 elapsed_min=0.1 total_triples=400
